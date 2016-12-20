@@ -1,21 +1,21 @@
 <?php
-display_errors = Off;
+//display_errors = Off;
 error_reporting(E_ALL ^ E_DEPRECATED);
 
 
 
-function the_check() {
-	if (mysql_errno ()) {
-		$mysql_errno = mysql_errno ();
-		$the_pay_load ['mysql_errno'] = $mysql_errno;
-		$mysql_error = mysql_error ();
-		$the_pay_load ['mysql_error'] = $mysql_error;
+// function the_check() {
+// 	if (mysql_errno ()) {
+// 		$mysql_errno = mysql_errno ();
+// 		$the_pay_load ['mysql_errno'] = $mysql_errno;
+// 		$mysql_error = mysql_error ();
+// 		$the_pay_load ['mysql_error'] = $mysql_error;
 
-		echo (json_encode ( $the_pay_load ));
+// 		echo (json_encode ( $the_pay_load ));
 
-		exit ();
-	}
-}
+// 		exit ();
+// 	}
+// }
 // $DDbug = true;
 // $the_pay_load = array ();
 // $the_pay_load ['mysql_errno'] = 0;
@@ -33,13 +33,13 @@ $time = localtime(time(),true);
 mysql_connect('aime.cd4jeronymvi.us-west-2.rds.amazonaws.com','MAPD17','1501user40');
 //mysql_connect('localhost','root','root');
 
-the_check();
+//the_check();
 
 mysql_set_charset("utf8");
-the_check();
+//the_check();
 
 mysql_select_db("Aime");
-the_check();
+//the_check();
 
 // mysql_query( "insert into Orders" . 
 // 		   "(name,address,phone,order_date)" . 
