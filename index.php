@@ -3,7 +3,6 @@ error_reporting(0);
 //error_reporting(E_ALL ^ E_DEPRECATED);
 
 
-
 // function the_check() {
 // 	if (mysql_errno ()) {
 // 		$mysql_errno = mysql_errno ();
