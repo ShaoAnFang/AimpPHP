@@ -29,8 +29,11 @@ $time = localtime(time(),true);
 // 	$mysql_error = "book time over 09:40AM";
 // 	exit();
 // }
-mysql_connect('aime.cd4jeronymvi.us-west-2.rds.amazonaws.com','MAPD17','1501user40');
+
+//mysql_connect('aime.cd4jeronymvi.us-west-2.rds.amazonaws.com','MAPD17','1501user40');
 //mysql_connect('localhost','root','root');
+//mysql_connect('sql212.0fees.us','0fe_19330894','jq01g4dn');
+mysql_select_db("0fe_19330894_Aime");
 
 //the_check();
 
