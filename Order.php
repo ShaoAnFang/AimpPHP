@@ -1,4 +1,5 @@
 <?php
+display_errors = Off;
 error_reporting(E_ALL ^ E_DEPRECATED);
 
 
