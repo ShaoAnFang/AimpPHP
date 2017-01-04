@@ -30,11 +30,12 @@ $time = localtime(time(),true);
 // 	exit();
 // }
 
-mysql_connect('aime.cd4jeronymvi.us-west-2.rds.amazonaws.com','MAPD17','1501user40');
+//mysql_connect('aime.cd4jeronymvi.us-west-2.rds.amazonaws.com','MAPD17','1501user40');
 //mysql_connect('localhost','root','root');
-//mysql_connect('sql212.0fees.us','0fe_19330894','jq01g4dn');
-//mysql_select_db("0fe_19330894_Aime");
-mysql_select_db("Aime");
+mysql_connect('mysql.hostinger.com.hk','u490296923_clark','720419');
+
+//mysql_select_db("Aime");
+mysql_select_db("u490296923_aime");
 //the_check();
 
 mysql_set_charset("utf8");
