@@ -80,6 +80,8 @@ $orderSendTime = @$_GET["orderSendTime"];
 //@$query = "insert into Orders values('','$name','$address','$phone',curdate(),'$message')";
 
 //echo $orderSendTime;
+echo curdate();
+echo $time;
 
 mysql_query($query) or die (mysql_error("error"));
 
