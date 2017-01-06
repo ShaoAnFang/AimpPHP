@@ -43,11 +43,6 @@ mysql_select_db("sql6152521") or die('Could not select database');
 //the_check();
 
 
-
-
-
-//the_check();
-
 // mysql_query( "insert into Orders" . 
 // 		   "(name,address,phone,order_date)" . 
 // 		   "values('sam','#390','(02)6631-6666',curdate() )"
@@ -65,7 +60,7 @@ mysql_select_db("sql6152521") or die('Could not select database');
 
 //@mysql_select_db($database) or die("Unable to find database");
 
-$date = date('Y/m/d_h:i:s a', time());
+$date = date('Y/m/d h:i:s a',time());
 
 $name = @$_GET["name"];
 
