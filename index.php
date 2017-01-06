@@ -75,9 +75,11 @@ $message = @$_GET["message"];
 
 $orderSendTime = @$_GET["orderSendTime"];
 
-// @$query = "insert into Orders values('','$name','$address','$phone',$orderSendTime,'$message')";
+@$query = "insert into Orders values('','$name','$address','$phone',$orderSendTime,'$message')";
 
-@$query = "insert into Orders values('','$name','$address','$phone',curdate(),'$message')";
+//@$query = "insert into Orders values('','$name','$address','$phone',curdate(),'$message')";
+
+//echo $orderSendTime;
 
 mysql_query($query) or die (mysql_error("error"));
 
