@@ -65,7 +65,7 @@ mysql_select_db("sql6152521") or die('Could not select database');
 
 //@mysql_select_db($database) or die("Unable to find database");
 
-$date = date('m/d/Y h:i:s a', time());
+$date = date('Y/m/d_h:i:s a', time());
 
 $name = @$_GET["name"];
 
