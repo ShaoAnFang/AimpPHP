@@ -32,10 +32,10 @@ $time = localtime(time(),true);
 
 //mysql_connect('aime.cd4jeronymvi.us-west-2.rds.amazonaws.com','MAPD17','1501user40');
 //mysql_connect('localhost','root','root');
-mysql_connect('mysql.hostinger.com.hk','u490296923_clark','720419','u490296923_aime');
+mysql_connect('db4free.net','aime','720419');
 
 //mysql_select_db("Aime");
-//mysql_select_db("u490296923_aime");
+mysql_select_db("aimeclark");
 //the_check();
 
 mysql_set_charset("utf8");
