@@ -78,8 +78,7 @@ $message = @$_GET["message"];
 @$query = "insert into Orders values('','$name','$address','$phone','$date','$message')";
 
 //echo $orderSendTime;
-echo curdate();
-echo $time;
+
 
 mysql_query($query) or die (mysql_error("error"));
 
