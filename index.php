@@ -30,12 +30,13 @@ $time = localtime(time(),true);
 // 	exit();
 // }
 
+mysql_connect('sql6.freemysqlhosting.net','sql6152521','720419','sql6152521');//free db hosting
 //mysql_connect('aime.cd4jeronymvi.us-west-2.rds.amazonaws.com','MAPD17','1501user40');
 //mysql_connect('localhost','root','root');
-mysql_connect('db4free.net','aime','720419');
-
+// mysql_connect('db4free.net','aime','720419');
+// mysql_select_db("aimeclark");
 //mysql_select_db("Aime");
-mysql_select_db("aimeclark");
+
 //the_check();
 
 mysql_set_charset("utf8");
