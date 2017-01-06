@@ -60,7 +60,9 @@ mysql_select_db("sql6152521") or die('Could not select database');
 
 //@mysql_select_db($database) or die("Unable to find database");
 
-$date = date('Y/m/d h:i:s a',time());
+// $date = date('Y/m/d h:i:s a',time());
+
+$OrderTime = @$_GET["date"];
 
 $name = @$_GET["name"];
 
@@ -70,7 +72,7 @@ $phone = @$_GET["phone"];
 
 $message = @$_GET["message"];
 
-@$query = "insert into Orders values('','$name','$address','$phone','$date','$message')";
+@$query = "insert into Orders values('','$name','$address','$phone','$OrderTime','$message')";
 
 //echo $orderSendTime;
 
