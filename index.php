@@ -73,7 +73,7 @@ $phone = @$_GET["phone"];
 
 $message = @$_GET["message"];
 
-$orderSendTime = @$_GET["$orderSendTime"];
+$orderSendTime = @$_GET["orderSendTime"];
 
 @$query = "insert into Orders values('','$name','$address','$phone',$orderSendTime,'$message')";
 
