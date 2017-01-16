@@ -37,8 +37,8 @@ mysql_connect('sql6.freemysqlhosting.net','sql6152521','9snQHwyntA') or die('Cou
 // mysql_connect('db4free.net','aime','720419');
 // mysql_select_db("aimeclark");
 
-mysql_query("SET NAMES 'utf8'");
-//mysql_set_charset("utf8");
+//mysql_query("SET NAMES 'utf8'");
+mysql_set_charset("utf8");
 
 //mysql_select_db("Aime");
 mysql_select_db("sql6152521") or die('Could not select database');
